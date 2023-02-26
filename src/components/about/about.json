@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_abouts",
+  "info": {
+    "displayName": "about",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "required": true,
+      "maxLength": 255
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-texts.about-texts",
+      "required": true
+    }
+  }
+}

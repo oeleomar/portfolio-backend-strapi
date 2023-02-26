@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_project_projects",
+  "info": {
+    "displayName": "project"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "minLength": 3,
+      "maxLength": 255
+    },
+    "description": {
+      "type": "text",
+      "minLength": 3,
+      "required": true
+    },
+    "preview": {
+      "type": "text",
+      "required": false
+    },
+    "github": {
+      "type": "text"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
