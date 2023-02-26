@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_experience_experiences",
+  "info": {
+    "displayName": "experience"
+  },
+  "options": {},
+  "attributes": {
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "since": {
+      "type": "date",
+      "required": true
+    },
+    "until": {
+      "type": "date"
+    },
+    "workHere": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "company": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -28,6 +28,32 @@
       "repeatable": true,
       "component": "links.links",
       "required": true
+    },
+    "majorProjects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.project",
+      "required": false,
+      "max": 3
+    },
+    "minorProjects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.project"
+    },
+    "experiences": {
+      "type": "component",
+      "repeatable": true,
+      "component": "experience.experience",
+      "required": false
+    },
+    "cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }

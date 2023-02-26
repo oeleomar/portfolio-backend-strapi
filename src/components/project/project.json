@@ -1,7 +1,8 @@
 {
   "collectionName": "components_project_projects",
   "info": {
-    "displayName": "project"
+    "displayName": "project",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -24,11 +25,22 @@
       "type": "text"
     },
     "cover": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "tools": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project-tools.project-tools",
+      "required": true
+    },
+    "finished": {
+      "type": "boolean",
+      "default": false,
       "required": true
     }
   }
