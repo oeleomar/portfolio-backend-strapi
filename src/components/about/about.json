@@ -17,6 +17,25 @@
       "repeatable": true,
       "component": "about-texts.about-texts",
       "required": true
+    },
+    "cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "attributes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-texts.about-texts",
+      "required": true,
+      "max": 6
+    },
+    "identifier": {
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -42,6 +42,10 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "year": {
+      "required": true,
+      "type": "date"
     }
   }
 }

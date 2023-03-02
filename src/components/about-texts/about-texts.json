@@ -10,18 +10,6 @@
       "type": "text",
       "required": true,
       "minLength": 3
-    },
-    "cover": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "coverPosition": {
-      "type": "boolean",
-      "default": true,
-      "required": true
     }
   }
 }

@@ -1,11 +1,12 @@
 {
   "collectionName": "components_experience_experiences",
   "info": {
-    "displayName": "experience"
+    "displayName": "experience",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "role": {
+    "title": {
       "type": "string",
       "required": true
     },
@@ -20,13 +21,24 @@
     "until": {
       "type": "date"
     },
-    "workHere": {
+    "untilNow": {
       "type": "boolean",
       "default": false,
       "required": true
     },
     "company": {
       "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "work": {
+      "type": "boolean",
+      "default": true,
       "required": true
     }
   }
